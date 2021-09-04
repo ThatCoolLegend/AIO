@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Section</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            li{
+                border: black solid 1px;
+                margin: 10px;
+            }
+            body{
+                background: url("https://i.ytimg.com/vi/MU3qrgR2Kkc/maxresdefault.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            #a:link, #a:visited {
+                border: 1px solid black;
+                color: rgb(5, 64, 77);
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 40px;
+                background-color: rgb(144, 196, 242);
+            }
+
+            #a:hover, #a:active {
+                background-color: rgb(106, 186, 183);
+            }
+            body{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">STUDY</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="selfDefence">Self Defence</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="foreign.html">Foreign Languages</a></li>
+                    <li><a href="shopping.html">Shopping</a></li>
+                    <li><a href="gameshome.html">Games</a></li>
+                </ul>
+            </div>
+    
+        </nav>
+        <h1 style="text-align: center;">
+            <u>Study Section</u>
+        </h1>
+        <h2>Community</h2>
+        <hr>
+        <a href="index.html" onclick="communityFunc()">Join the community and discuss different study questions</a>
+        <b>Make sure you are signed in</b><br><br>
+        <h2>IIT preperation books for 6-10 classes</h2>
+        <hr>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Class-Mathematics-2020/dp/935394452X">6th Grade Mathematics, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-class-6-mathematics/p/itm1d02dcfbbdb47?pid=9789353944520&lid=LSTBOK9789353944520N21VY9&marketplace=FLIPKART&q=pearson+iit+foundation+maths+class+6&store=bks&srno=s_1_1&otracker=AS_Query_OrganicAutoSuggest_1_36_sc_na_na&otracker1=AS_Query_OrganicAutoSuggest_1_36_sc_na_na&fm=SEARCH&iid=a145036d-9fb0-44bb-a376-d88ae0c19f92.9789353944520.SEARCH&ppt=hp&ppn=homepage&ssid=6rbosnvt800000001620730324246&qH=8b47b2786f257a57">6th grade Mathematics, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Class-Science-2020-ebook/dp/B0874DBSQG/ref=sr_1_15?dchild=1&keywords=iit+foundation+class+6+science&qid=1620730422&sr=8-15">6th grade Science, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Physics-Chemistry-Maths/dp/9353945097/ref=sr_1_8?dchild=1&keywords=iit+foundation+class+7+maths&qid=1620730592&sr=8-8">7th grade Physics,Chemistry,Mathematics, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-class-6-science/p/itm2abca76b86eae?pid=9789353944667&lid=LSTBOK9789353944667XVS70R&marketplace=FLIPKART&q=pearson+iit+foundation+maths+class+6&store=bks&srno=s_1_3&otracker=AS_Query_OrganicAutoSuggest_1_36_sc_na_na&otracker1=AS_Query_OrganicAutoSuggest_1_36_sc_na_na&fm=organic&iid=28d7c227-8a28-4f2f-8583-e6678f8d4beb.9789353944667.SEARCH&ppt=None&ppn=None&ssid=kofpvns8ls0000001620730429074&qH=8b47b2786f257a57">7th grade Science, Pearson Foundation </a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Physics-Chemistry-Maths/dp/9353945097/ref=sr_1_8?dchild=1&keywords=iit+foundation+class+7+maths&qid=1620730592&sr=8-8">7th grade Physics,Chemistry,Mathematics, Peraso IIT Foundation series</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Class-Mathematics-2020/dp/9353944554/ref=sr_1_4?dchild=1&keywords=iit+foundation+class+7+maths&qid=1620730592&sr=8-">7th grade Mathematics, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-series-class-7-mathematics/p/itm032dff332c5b7?pid=9789353944551&lid=LSTBOK9789353944551QSWC2L&marketplace=FLIPKART&q=pearson+iit+foundation+maths+class+7&store=bks&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=88a439d7-77e2-4342-b119-4b1896b9ad97.9789353944551.SEARCH&ppt=sp&ppn=sp&ssid=mq3ee7ewts0000001620730595588&qH=ff160086df51cc63">7th grade Mathematics Pearson IIT Foundation</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Class-Physics-2020/dp/9353944538/ref=sr_1_6?dchild=1&keywords=iit+foundation+class+7+physics&qid=1620730804&sr=8-">7th grade Physics, Pearson Foundation </a>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-series-class-7-mathematics/p/itm032dff332c5b7?pid=9789353944551&lid=LSTBOK9789353944551QSWC2L&marketplace=FLIPKART&q=pearson+iit+foundation+maths+class+7&store=bks&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=88a439d7-77e2-4342-b119-4b1896b9ad97.9789353944551.SEARCH&ppt=sp&ppn=sp&ssid=mq3ee7ewts0000001620730595588&qH=ff160086df51cc63">7th grade Mathematics, IIT Foundation</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Class-Chemistry-2020/dp/9353944546/ref=sr_1_6?dchild=1&keywords=iit+foundation+class+7+chemistry&qid=1620730922&sr=8-6">7th grade Chemistry, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.amazon.in/Pearson-Foundation-Physics-Chemistry-Biology/dp/9353945100/ref=sr_1_14?dchild=1&keywords=iit+foundation+class+8+maths&qid=1620731072&sr=8-14">8th grade Physics,Chemistry,Mathematics (third edition), Pearson Foundation </a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-series-physics-chemistry-maths-class-9/p/itmc051a57b36e21?pid=9789353945138&lid=LSTBOK9789353945138U9PV6E&marketplace=FLIPKART&q=IIT+class+9+pearson&store=bks&srno=s_1_19&otracker=search&otracker1=search&fm=SEARCH&iid=a11e35d4-200b-4a0a-a8e0-e1ea6c59011e.9789353945138.SEARCH&ppt=hp&ppn=homepage&ssid=gj63y0y0sw0000001620731305257&qH=793a171be3ae785e">9th grade Physics,Chemistry,Mathematics, Pearson Foundation</a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-iit-foundation-series-physics-chemistry-maths-class-9/p/itmc051a57b36e21?pid=9789353945138&lid=LSTBOK9789353945138U9PV6E&marketplace=FLIPKART&q=IIT+class+9+pearson&store=bks&srno=s_1_19&otracker=search&otracker1=search&fm=SEARCH&iid=a11e35d4-200b-4a0a-a8e0-e1ea6c59011e.9789353945138.SEARCH&ppt=hp&ppn=homepage&ssid=gj63y0y0sw0000001620731305257&qH=793a171be3ae785e">9th grade Physics,Chemistry,Mathematics, IIT Foundation</a>
+        <br>
+        <a id="a" href="https://www.flipkart.com/pearson-foundation-series-physics-chemistry-maths-biology-class-10/p/itmc4fdc26dec7c2?pid=9789353945145&lid=LSTBOK9789353945145F4GXCL&marketplace=FLIPKART&q=IIT+class+10+pearson&store=bks&srno=s_1_14&otracker=search&otracker1=search&fm=SEARCH&iid=fbb4c047-6dba-4e43-aae1-54d545cdfea7.9789353945145.SEARCH&ppt=sp&ppn=sp&ssid=t63nwbdlyo0000001620731487639&qH=0930bf9ea253e0a8 Pearson Foundation series class 10 Maths, Chemistry, physics & biology">10th grade Physics,Chemistry,Mathematics, Pearson Foundation</a>
+        <br><br><br>
+        <h2>NCERT books</h2>
+        <hr>
+        <a href="">Click here</a><br><br>
+        <h2>Youtube channels for studying</h2>
+        <hr>
+
+        <script>
+            function communityFunc(){
+                localStorage.setItem("communityBool", true)
+            }
+        </script>
+
+    </body>
+</html>
